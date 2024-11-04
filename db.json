@@ -1,0 +1,75 @@
+{
+  "livres": [
+    {
+      "id": 1,
+      "titre": "Le Petit Prince",
+      "auteur": "Antoine de Saint-Exupéry",
+      "anneePublication": 1943,
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "titre": "1984",
+      "auteur": "George Orwell",
+      "anneePublication": 1949,
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "titre": "L'Étranger",
+      "auteur": "Albert Camus",
+      "anneePublication": 1942,
+      "disponible": true
+    },
+    {
+      "titre": "Livre Test",
+      "auteur": "Léo MOREAU",
+      "anneePublication": 2002,
+      "disponible": false,
+      "id": 4
+    }
+  ],
+  "emprunteurs": [
+    {
+      "id": 1,
+      "nom": "Jean Dupo",
+      "email": "jean.dupont@email.com",
+      "livresEmpruntes": [
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Marie Martin",
+      "email": "marie.martin@email.com",
+      "livresEmpruntes": []
+    },
+    {
+      "id": 3,
+      "nom": "Pierre Bernard",
+      "email": "pierre.bernard@email.com",
+      "livresEmpruntes": []
+    },
+    {
+      "id": 4,
+      "nom": "Sophie Dubois",
+      "email": "sophie.dubois@email.com",
+      "livresEmpruntes": []
+    },
+    {
+      "id": 5,
+      "nom": "Lucas Petit",
+      "email": "lucas.petit@email.com",
+      "livresEmpruntes": []
+    }
+  ],
+  "transactions": [
+    {
+      "livreId": 4,
+      "emprunteurId": 1,
+      "dateEmprunt": "2024-11-04T14:31:41.596Z",
+      "dateRetourPrevue": "2024-11-18T14:31:41.596Z",
+      "id": 1
+    }
+  ]
+}
